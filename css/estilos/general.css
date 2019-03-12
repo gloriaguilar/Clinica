@@ -1,0 +1,161 @@
+body{
+    background-color: #d8d8d8ef;
+    margin: 0 !important;
+}
+.tamanos_img
+{
+    width: 80% !important;
+    /* height: 20%; */
+}
+.card1{
+    background-color: rgb(172, 172, 172);
+}
+.color_icons{
+    color: #747575;
+}
+.fuente{
+    
+
+    font-family: 'Noto Sans TC', sans-serif;
+   
+
+    /* font-family: 'Didact Gothic', sans-serif; */
+
+    /* font-family: 'Montserrat', sans-serif; */
+
+    /* font-family: 'Miriam Libre', sans-serif; */
+
+
+    /*  */
+
+}
+.txt
+{
+    font-family: 'Nunito', sans-serif;
+}
+/* .contenedor:hover .tamanos_img {
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    filter: sepia(30%);
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    -o-transform: scale(1.1);
+    
+} */
+.contenedor .tamanos_img {
+    transition: width .4s, height .4s, transform .4s;
+    -moz-transition: width .4s, height .4s, -moz-transform .4s;
+    -webkit-transition: width .4s, height .4s, -webkit-transform .4s;
+    -o-transform: width .4s, height .4s, -o-transform .4s;
+    
+}
+.contenedor {
+    overflow:hidden;
+}
+.numeros{
+     /* font-family: 'Miriam Libre', sans-serif; */
+     /* font-family: 'Montserrat', sans-serif; */
+     font-family: 'Didact Gothic', sans-serif;
+}
+.subtitulos{
+    font-family: 'Montserrat', sans-serif !important; 
+}
+.add{
+    background-color: #349e02d7;
+    color: #f7f7f7d7;
+   
+}
+.add:hover{
+    background-color: #257202;
+}
+.btn_delete{
+    background-color: rgba(197, 0, 0, 0.959);
+    color: #f7f7f7d7; 
+}
+.btn_delete:hover{
+    background-color: rgb(179, 2, 2);
+}
+.btn_update{
+    background-color: rgb(0, 89, 206);
+    color: #f7f7f7d7; 
+}
+.btn_update:hover{
+    background-color:rgb(1, 65, 150) ;
+}
+.btn_detail{
+    background-color: #000000e3;
+    color: white;
+}
+.nav_color{
+    background-color: #062042;
+    color: #000 !important;
+    font-size: 20px;
+}
+.foot_color
+{
+    background-color: #06787a;
+    color: rgb(255, 255, 255);
+}
+
+.line::after{
+    content: " ";
+    width: 350px;
+    height: 5px;
+    background-color: rgba(0, 0, 129, 0.616);
+    display: block;
+
+}
+.modal-header-color-edit{
+    background: #026875;
+}
+.color_link
+{
+    color: #000;
+}
+.tamanos{
+    font-size: 20px;
+}
+.line_div{
+    background-color: rgb(0, 61, 117);
+    color:honeydew;
+
+
+}
+.img_quienes{
+    width: 80% !important;
+}
+
+.color_icons{
+    background-color: cadetblue;
+    color: azure;
+    }
+.line_div_us{
+        background-color: cornsilk;
+    }
+.bg_nav{
+    background-color: #026875;
+}
+.fondo_img{
+    /* The image used */
+  background-image: url("../../img/fondo.jpg");
+
+  /* Control the height of the image */
+  height: 100vh;
+/* width: 120px; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.modal-header-color-add{
+    background: #07cc28;
+}
+.content{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.color_card{
+    background-color: azure;
+}
